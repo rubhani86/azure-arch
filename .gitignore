@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Byte-compiled / cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.pickle
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example   # keep an example for others
+*.secret
+secrets.json
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Mongo data volume (if mounted locally)
+mongo_data/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Build / dist
+build/
+dist/
+*.bak
+*.tmp
+*.orig
+
+# Reports
+*.out
+*.log
+*.err

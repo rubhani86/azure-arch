@@ -1,0 +1,11 @@
+# GitHub
+GITHUB_TOKEN=                 # leave blank to run token-free
+FORCE_CONTENTS_WALK=true      # optional; forces contents-walker mode
+
+# Sources (owner/repo[:subdir])
+GITHUB_SOURCES=Azure/azure-quickstart-templates:quickstarts
+
+# Mongo (optional but recommended)
+MONGODB_URI=mongodb://mongo:27017
+MONGO_DB_NAME=azure_arch_db
+MONGO_COLL_NAME=architectures
